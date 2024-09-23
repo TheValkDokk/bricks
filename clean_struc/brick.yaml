@@ -1,0 +1,14 @@
+name: clean_struc
+description: Clean architecture structure
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.57 <0.1.0"
+
+vars:
+  baseUrl:
+    type: string
+    description: Endpoint URL
+    default: https://api.example.com
+    prompt: Enter the base URL for the API
